@@ -1,0 +1,86 @@
+
+  .list__items{
+    font-size: 20px;
+    font-weight: bold;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between; /* horizontal alignment / places first flex-item (child) far left and last far right, i.e. max. space between them */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+.list__item
+{
+    padding: 5px 5px;
+}
+.button
+{
+      background-color: black;
+      color:white;
+      border-radius: 20px;
+      transition: .2s ease-in-out 0s;
+      width: 60px;
+}
+
+.button:hover
+{
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.page
+{
+     padding-left: 5vw;
+     padding-right: 5vw;
+}
+
+.event__list
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.footer
+{
+    padding-top:45px;
+    background-color:#2b2a25;
+    height:150px;
+    padding: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.ravi
+{
+     color:white;
+     width: 100%;
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+.pagination-at-center
+{
+  display: flex;
+  justify-content: center;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 2px;
+}
+
+
+.div-at-end
+{
+  display: flex;
+  justify-content: end;
+}
