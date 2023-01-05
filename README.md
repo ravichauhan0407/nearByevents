@@ -16,7 +16,9 @@ Welcome to Nearby Events! This project allows users to view and add events happe
 
 ## Demo
 
-To see a demo of the app in action, please click https://youtu.be/CDCQ_xHWjnk.
+To see a demo of the app in action
+<video src="https://github.com/ravichauhan0407/nearByevents-/blob/main/20230106000008.mp4" width="640" height="480" controls>
+</video>
 
 
 
