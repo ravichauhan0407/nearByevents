@@ -1,0 +1,19 @@
+.card
+{
+  border: 20px !important;
+  box-shadow: 2px 2px 2px 2px #888888 !important;
+  height: 300px !important;
+  width: 300px;
+}
+
+.card-img-top
+{
+     height: 150px !important;
+     object-fit: fill !important;
+     border: 20px !important;
+}
+
+.card-link:hover
+{
+    cursor: pointer;
+}

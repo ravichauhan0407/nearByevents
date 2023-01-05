@@ -1,0 +1,75 @@
+
+.addevent
+{
+  background:rgb(219, 50, 54,0.2);
+}
+
+.first {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+   }
+.second {
+     width: 70%;
+     height:80vh;
+     border-radius: 5%;
+     z-index: 2;
+     padding: 2%;
+   }
+
+.grid
+{
+     height: 80%;
+      display: grid;
+
+      grid-template-columns: 1fr  1fr;
+      grid-template-rows: repeat(6,1fr);
+      row-gap: 30px;
+      column-gap: 52px;
+}
+.box
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+.curve-border
+{
+      border-radius: 10px;
+      height: 35px;
+      width: 100%;
+}
+
+.custom-btn
+{
+     grid-row-start: 5;
+     grid-column-start: 2;
+     align-items: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 30px;
+    
+}
+
+.custom-title
+{
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.home-page
+{
+    padding: 2%;
+}
+.submit-btn
+{
+    background-color:#db3236  !important ;
+}
