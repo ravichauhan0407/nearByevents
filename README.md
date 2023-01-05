@@ -1,7 +1,7 @@
 
 # Nearby Events
 
-Welcome to Nearby Events! This project allows users to view and add events happening in their area. It was built using React, MongoDB, Express, Node.js, REST APIs, and the Antd CSS library.
+Welcome to Nearby Events! This project allows users to view and add events happening in their area. It was built using React, MongoDB, Express, Node.js, REST APIs, and the Antd.
 
 
 ## Features
@@ -21,7 +21,13 @@ To see a demo of the app in action
 
 https://user-images.githubusercontent.com/70810745/210883793-c3cb75d3-70cd-4139-96b5-bfca942c965e.mp4
 
+## Technologies
+The Leetcode Time Analyzer was built using the following technologies:
 
+- MongoDB: NoSQL database used to store the data entered by users
+- Express: Backend web framework for building the API
+- React: Frontend JavaScript library for building the user interface
+- Node.js: JavaScript runtime for running the backend server and building the API
 
 
 ## Installation
@@ -38,7 +44,7 @@ Install my-project with npm
 Clone the project
 
 ```bash
-  git clone https://github.com/ravichauhan0407/nearByevents-
+  git clone https://github.com/ravichauhan0407/nearByevents-.git
 ```
 
 Go to the project directory
