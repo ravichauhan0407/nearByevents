@@ -63,7 +63,7 @@ app.use('/api',eventRoutes)
 app.use(express.static(path.join(__dirname, "./client/build")));
 
 app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.hen5b.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,{
